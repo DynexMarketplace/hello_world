@@ -4,7 +4,7 @@
     "cpus": 4
   },
   "waitFor": "onCreateCommand",
-  "updateContentCommand": "pip install pyqubo && pip install dynex",
+  "updateContentCommand": "pip install pyqubo && pip install dynex chmod 777 testnet/dynex-testnet-bnb",
   "postCreateCommand": "",
   "customizations": {
     "codespaces": {
